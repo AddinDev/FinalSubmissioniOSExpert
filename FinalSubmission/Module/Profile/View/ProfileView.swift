@@ -19,6 +19,7 @@ struct ProfileView: View {
         desc
       }
     }
+    .navigationBarTitle("Profile")
   }
   
 }
