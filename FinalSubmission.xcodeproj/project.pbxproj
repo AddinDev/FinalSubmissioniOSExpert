@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0405F0FF261762FF0056798A /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 0405F0FE261762FF0056798A /* .swiftlint.yml */; };
 		0488DF972617508700156548 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0488DF962617508700156548 /* AppDelegate.swift */; };
 		0488DF992617508700156548 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0488DF982617508700156548 /* SceneDelegate.swift */; };
 		0488DF9B2617508700156548 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0488DF9A2617508700156548 /* ContentView.swift */; };
@@ -47,6 +48,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0405F0FE261762FF0056798A /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		0488DF932617508700156548 /* FinalSubmission.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalSubmission.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0488DF962617508700156548 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0488DF982617508700156548 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 		0488DF8A2617508700156548 = {
 			isa = PBXGroup;
 			children = (
+				0405F0FE261762FF0056798A /* .swiftlint.yml */,
 				0488DF952617508700156548 /* FinalSubmission */,
 				0488DFAC2617508800156548 /* FinalSubmissionTests */,
 				0488DFB72617508900156548 /* FinalSubmissionUITests */,
@@ -441,6 +444,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0405F0FF261762FF0056798A /* .swiftlint.yml in Resources */,
 				0488DFA32617508800156548 /* LaunchScreen.storyboard in Resources */,
 				0488DFA02617508800156548 /* Preview Assets.xcassets in Resources */,
 				0488DF9D2617508800156548 /* Assets.xcassets in Resources */,
