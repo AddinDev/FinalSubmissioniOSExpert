@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,18 @@
 		0488DFA32617508800156548 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0488DFA12617508800156548 /* LaunchScreen.storyboard */; };
 		0488DFAE2617508800156548 /* FinalSubmissionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0488DFAD2617508800156548 /* FinalSubmissionTests.swift */; };
 		0488DFB92617508900156548 /* FinalSubmissionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0488DFB82617508900156548 /* FinalSubmissionUITests.swift */; };
+		0488DFEC261755AE00156548 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 0488DFEB261755AE00156548 /* SDWebImageSwiftUI */; };
+		0488DFF7261756B900156548 /* Injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0488DFF6261756B900156548 /* Injection.swift */; };
+		0488E00B2617576E00156548 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0488E00A2617576E00156548 /* ProfileView.swift */; };
+		0488E0102617578400156548 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0488E00F2617578400156548 /* HomeView.swift */; };
+		0488E0152617579100156548 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0488E0142617579100156548 /* HomeRouter.swift */; };
+		0488E01A261757A600156548 /* FavouriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0488E019261757A600156548 /* FavouriteView.swift */; };
+		0488E01F261757C500156548 /* FavouriteRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0488E01E261757C500156548 /* FavouriteRouter.swift */; };
+		0488E024261757DE00156548 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0488E023261757DE00156548 /* SearchView.swift */; };
+		0488E029261757F200156548 /* SearchRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0488E028261757F200156548 /* SearchRouter.swift */; };
+		0488E02E2617580500156548 /* GameRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0488E02D2617580500156548 /* GameRow.swift */; };
+		0488E0332617581B00156548 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0488E0322617581B00156548 /* DetailView.swift */; };
+		0488E039261759BA00156548 /* Game in Frameworks */ = {isa = PBXBuildFile; productRef = 0488E038261759BA00156548 /* Game */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +61,16 @@
 		0488DFB42617508900156548 /* FinalSubmissionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinalSubmissionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0488DFB82617508900156548 /* FinalSubmissionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalSubmissionUITests.swift; sourceTree = "<group>"; };
 		0488DFBA2617508900156548 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0488DFF6261756B900156548 /* Injection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Injection.swift; sourceTree = "<group>"; };
+		0488E00A2617576E00156548 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		0488E00F2617578400156548 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		0488E0142617579100156548 /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		0488E019261757A600156548 /* FavouriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteView.swift; sourceTree = "<group>"; };
+		0488E01E261757C500156548 /* FavouriteRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteRouter.swift; sourceTree = "<group>"; };
+		0488E023261757DE00156548 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		0488E028261757F200156548 /* SearchRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRouter.swift; sourceTree = "<group>"; };
+		0488E02D2617580500156548 /* GameRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameRow.swift; sourceTree = "<group>"; };
+		0488E0322617581B00156548 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +78,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0488E039261759BA00156548 /* Game in Frameworks */,
+				0488DFEC261755AE00156548 /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +124,8 @@
 			isa = PBXGroup;
 			children = (
 				0488DFC92617509300156548 /* App */,
+				0488DFF02617563500156548 /* Core */,
+				0488DFF12617563D00156548 /* Module */,
 				0488DFCD2617509B00156548 /* Supporting Files */,
 				0488DF9E2617508800156548 /* Preview Content */,
 			);
@@ -152,6 +178,158 @@
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		0488DFF02617563500156548 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				0488DFF5261756B200156548 /* DI */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		0488DFF12617563D00156548 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				0488DFFC261756E800156548 /* Home */,
+				0488DFFF261756F600156548 /* Favourite */,
+				0488DFFE261756F100156548 /* Search */,
+				0488DFFB261756E100156548 /* GameRow */,
+				0488DFFD261756EC00156548 /* Detail */,
+				0488E000261756FC00156548 /* Profile */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		0488DFF5261756B200156548 /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				0488DFF6261756B900156548 /* Injection.swift */,
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
+		0488DFFB261756E100156548 /* GameRow */ = {
+			isa = PBXGroup;
+			children = (
+				0488E0072617574600156548 /* View */,
+			);
+			path = GameRow;
+			sourceTree = "<group>";
+		};
+		0488DFFC261756E800156548 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				0488E0022617571A00156548 /* Router */,
+				0488E0012617571400156548 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		0488DFFD261756EC00156548 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				0488E0082617574900156548 /* View */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		0488DFFE261756F100156548 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				0488E0062617574000156548 /* Router */,
+				0488E0052617573C00156548 /* View */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		0488DFFF261756F600156548 /* Favourite */ = {
+			isa = PBXGroup;
+			children = (
+				0488E0042617573500156548 /* Router */,
+				0488E0032617572400156548 /* View */,
+			);
+			path = Favourite;
+			sourceTree = "<group>";
+		};
+		0488E000261756FC00156548 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				0488E0092617575200156548 /* View */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		0488E0012617571400156548 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0488E00F2617578400156548 /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0488E0022617571A00156548 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				0488E0142617579100156548 /* HomeRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		0488E0032617572400156548 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0488E019261757A600156548 /* FavouriteView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0488E0042617573500156548 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				0488E01E261757C500156548 /* FavouriteRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		0488E0052617573C00156548 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0488E023261757DE00156548 /* SearchView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0488E0062617574000156548 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				0488E028261757F200156548 /* SearchRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		0488E0072617574600156548 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0488E02D2617580500156548 /* GameRow.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0488E0082617574900156548 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0488E0322617581B00156548 /* DetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0488E0092617575200156548 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0488E00A2617576E00156548 /* ProfileView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -168,6 +346,10 @@
 			dependencies = (
 			);
 			name = FinalSubmission;
+			packageProductDependencies = (
+				0488DFEB261755AE00156548 /* SDWebImageSwiftUI */,
+				0488E038261759BA00156548 /* Game */,
+			);
 			productName = FinalSubmission;
 			productReference = 0488DF932617508700156548 /* FinalSubmission.app */;
 			productType = "com.apple.product-type.application";
@@ -239,6 +421,10 @@
 				Base,
 			);
 			mainGroup = 0488DF8A2617508700156548;
+			packageReferences = (
+				0488DFEA261755AE00156548 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				0488E037261759BA00156548 /* XCRemoteSwiftPackageReference "Game" */,
+			);
 			productRefGroup = 0488DF942617508700156548 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -282,8 +468,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0488E024261757DE00156548 /* SearchView.swift in Sources */,
 				0488DF972617508700156548 /* AppDelegate.swift in Sources */,
+				0488E02E2617580500156548 /* GameRow.swift in Sources */,
+				0488E029261757F200156548 /* SearchRouter.swift in Sources */,
+				0488DFF7261756B900156548 /* Injection.swift in Sources */,
+				0488E0152617579100156548 /* HomeRouter.swift in Sources */,
+				0488E00B2617576E00156548 /* ProfileView.swift in Sources */,
+				0488E0332617581B00156548 /* DetailView.swift in Sources */,
+				0488E0102617578400156548 /* HomeView.swift in Sources */,
 				0488DF992617508700156548 /* SceneDelegate.swift in Sources */,
+				0488E01F261757C500156548 /* FavouriteRouter.swift in Sources */,
+				0488E01A261757A600156548 /* FavouriteView.swift in Sources */,
 				0488DF9B2617508700156548 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -613,6 +809,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0488DFEA261755AE00156548 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.2;
+			};
+		};
+		0488E037261759BA00156548 /* XCRemoteSwiftPackageReference "Game" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AddinDev/Game.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0488DFEB261755AE00156548 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0488DFEA261755AE00156548 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		0488E038261759BA00156548 /* Game */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0488E037261759BA00156548 /* XCRemoteSwiftPackageReference "Game" */;
+			productName = Game;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0488DF8B2617508700156548 /* Project object */;
 }
